@@ -13,7 +13,6 @@ $area = $length * $width;
 $perimeter = 2 * ($length + $width);
 
 echo($area);
-echo($perimeter);
 ?>
 
 </body>
