@@ -5,14 +5,14 @@
 <h1>My first PHP page</h1>
 
 <?php
-$length = 10;
-$width  = 5;
+$vat = 0.15;
+$totalamount= 5000;
 
 
-$area = $length * $width;
-$perimeter = 2 * ($length + $width);
+$FinalAmount  = $totalamount + ($totalamount * $vat);
 
-echo($area);
+
+echo($FinalAmount);
 ?>
 
 </body>
